@@ -66,6 +66,7 @@
     padding: 10px;
     border-radius: 10px;
     justify-content: space-between;
+   
 }
 .search input{
     text-align: left;
@@ -75,4 +76,36 @@
    text-decoration: none; 
    color: rgba(0, 0, 0, 0.61);
    font-size: 20px;
+}
+/*slide animation*/
+.slide{
+    height:80vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(pexels-pixabay-219794.jpg);
+    background-position: center;
+    margin: auto;
+    border-radius: 15px;
+    animation: abir 10s infinite forwards;
+    transition: 2s;
+}
+@keyframes abir{
+    0%{
+        background-image: url(pexels-pixabay-219794.jpg);
+    }
+    32%{
+        background-image: url(pexels-pixabay-219794.jpg);
+    }
+    33%{
+        background-image: url(pexels-wendywei-1656663.jpg);
+    }
+    63%{
+        background-image: url(pexels-wendywei-1656663.jpg);
+    }
+    64%{
+        background-image: url(pexels-wendywei-1656666.jpg);
+    }
+    100%{
+        background-image: url(pexels-wendywei-1656666.jpg);
+    }
 }
