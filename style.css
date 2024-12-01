@@ -109,3 +109,8 @@
         background-image: url(pexels-wendywei-1656666.jpg);
     }
 }
+.slide h2{
+    text-align: center;
+    background-color: limegreen;
+    color: rgb(255, 255, 255);
+}
