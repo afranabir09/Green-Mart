@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .sign-container{
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(255, 57, 107, 0.534);
+            padding: 10px;
+        }
+
+        .sign-contant{
+            height: 500px;
+            width: 70%;
+            background-color: white;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 1px 2px 25px rgba(0, 0, 0, 0.164);
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        .sign-contant p{
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+            color:palevioletred;
+            padding: 10px ;
+        }
+
+    .login-forgote{
+        margin-top: 10px;
+        text-align: right;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+        .login-forgote a{
+            color: rgb(155, 155, 155);
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .input{
+            text-align: left;
+            padding: 5px 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;  border: 1px solid rgba(0, 0, 0, 0.137);
+        }
+
+        .input input{
+            font-family: "Roboto Condensed", sans-serif;
+            text-transform: capitalize;
+            text-align: left;
+            padding: 10px;
+            border: 0;
+            color: rgba(0, 0, 0, 0.596);
+          
+        }
+
+        .input i{
+            color: rgba(0, 0, 0, 0.329);
+            margin: 10px;
+        }
+
+        .login-btn{
+            margin-top: 25px;
+        }
+
+        .login-btn button{
+            padding: 10px 20px;
+            border: 0;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            width: 100%;
+            background-color: rgba(255, 57, 107, 0.534);
+        }
+
+        .login-btn a{
+            text-decoration: none;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.479);
+            font-weight: bold;
+        }
+
+        .login-btn button:hover{
+            background-color: rgba(255, 101, 140, 0.534);
+        }
+        .sign-contant h6{
+            font-family: "Roboto Condensed", sans-serif;
+            color: rgba(0, 0, 0, 0.377);
+            font-size: 15px;
+            margin-top: 10px ;
+            border-bottom: 1px dotted gray;
+        }
+        .btn-down{
+            margin-top: 15px;
+        }
+        .btn-down h2{
+            color: gray;
+            font-size: 16px;
+            font-family: "Roboto Condensed", sans-serif;
+        }
+        .icon{
+            margin-top: 20px;
+        }
+        .icon button{
+            padding: 10px 20px;
+            width: 100%;
+            background-color: rgba(255, 57, 107, 0.534);
+            border: 0;
+            text-align: center;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 20px;
+            margin: 10px auto;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .icon button:hover{
+            background-color: rgba(255, 101, 140, 0.534);
+        }
+        .icon button i{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            margin-right:5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Fredoka:wght@300..700&family=Geo:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lavishly+Yours&family=Markazi+Text:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sign-container">
+        <div class="sign-contant">
+            <div class="login-info">
+                <p>LogIn</p>
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Email">
+            </div><br>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="login-forgote">
+                <a href="">Forgote Password</a>
+            </div>
+            <div class="login-btn">
+                <button>
+                    <a href="">LogIn</a>
+                </button>
+
+            </div>
+            <h6>or</h6>
+            <div class="btn-down">
+                <h2>LogIn With</h2>
+                <div class="icon">
+                    <button> <i class="fa-brands fa-facebook"></i> Facebook</button>
+                    <button><i class="fa-brands fa-google"></i> Google</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
