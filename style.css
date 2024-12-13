@@ -63,7 +63,7 @@
 
 .search{
     display: flex;
-    background: linear-gradient(rgb(95, 255, 202),rgb(0, 255, 115));
+    background-color: #04ad04;
     width: 90%;
     margin: 10px auto;
     padding: 10px 20px;
@@ -73,13 +73,15 @@
 }
 .search input{
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.13),rgba(0, 255, 115, 0.425));
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color:  #04ad04;
 }
 .sic a{
    text-decoration: none; 
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    font-size: 20px;
 }
 
@@ -118,8 +120,8 @@
 }
 .slide h2{
     text-align: center;
-    background: linear-gradient(rgb(95, 255, 202),rgb(0, 255, 115));
-    color: rgb(85, 85, 85);
+    background-color: #04ad04;
+    color: rgb(255, 255, 255);
 }
 .info h1{
     text-align: center;
