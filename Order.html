@@ -53,7 +53,7 @@
         border: 0;
         padding: 5px;
         margin-left: 10px;
-        width: 75%;
+        width: 50%;
         color: rgba(0, 0, 0, 0.63);
         text-transform: capitalize;
        }
@@ -100,6 +100,32 @@
         color: gray;
         border-bottom: 1px dotted gray;
        }
+       .sellet{
+        padding: 10px 20px;
+        border: 1px solid rgba(179, 179, 179, 0.616);
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       .sellet h4{
+        color: gray;
+       }
+       .sel{
+        padding: 5px 20px;
+        background-color: rgb(0, 158, 0);
+        border: 0;
+        border-radius: 10px;
+       }
+       .sel select{
+        background-color: rgb(0, 163, 0);
+        border: 0;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+       }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -126,6 +152,29 @@
                 <i class="fa-solid fa-house"></i>
                 <input type="text" placeholder="Enter Your Address">
             </div>
+            <div class="contant-info">
+                <i class="fa-brands fa-product-hunt"></i>
+                <input type="text" placeholder="Enter Product Name">
+            </div>
+
+            <div class="sellet">
+                <h4>Product Quantity</h4>
+                <div class="sel">
+                    <select name="Code">
+                        <option value="1kg">1 kg/p/h</option>
+                        <option value="2kg">2 kg/p/h</option>
+                        <option value="3kg">3 kg/p/h</option>
+                        <option value="4kg">4 kg/p/h</option>
+                        <option value="5kg">5 kg/p/h</option>
+                        <option value="6kg">6 kg/p/h</option>
+                        <option value="7kg">7 kg/p/h</option>
+                        <option value="8kg">8 kg/p/h</option>
+                        <option value="9kg">9 kg/p/h</option>
+                        <option value="10kg">10 kg/p/h</option>
+                    </select>
+                </div>
+            </div>
+            
             <div class="btn-payment">
                 <button><a href="">Payment</a></button>
             </div>
