@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto Condensed", sans-serif;
+        }
+        .sign-up-container{
+            
+        }
+        .sign-up-contant{
+            padding: 10px 20px;
+            width: 70%;
+            height: 500px;
+            background-color: white;
+            box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.356);
+            border-radius: 10px;
+            margin: 100px auto;
+            transition: 500ms;
+        }
+        .sign-up-contant:hover{
+            transform: scale(1.03);
+        }
+
+        .sign-up-headding{
+            text-align: center;
+            padding: 10px ;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.486);
+        }
+        .sign-up-headding h2{
+            color: gray;
+        }
+
+        .sign-up-input{
+            padding: 10px 20px;
+            border: 1px solid rgba(168, 168, 168, 0.514);
+            border-top-left-radius: 20px ;
+            border-bottom-right-radius: 20px;
+            margin-top: 20px;
+        }
+        .sign-up-input input{
+            border: 0;
+            color: gray;
+            padding: 5px 20px;
+        }
+        .sign-up-input i{
+            color: gray;
+        }
+
+        .sign-up-btn{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .sign-up-btn button{
+            padding: 10px 20px ;
+            width: 100%;
+            border: 0;
+            background-color: green;
+            border-radius: 5px;
+        }
+        .sign-up-btn button a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        .sign-up-info{
+            text-align: center;
+            margin-top: 5px;
+        }
+        .sign-up-info p{
+            color: gray;
+        }
+        .sign-up-info a{
+            text-decoration: none;
+            color: rgb(0, 183, 255);
+        }
+        .sign-up-info2{
+            text-align: center;
+            margin-top: 20px;
+            border-bottom: 1px dotted gray;
+        }
+        .sign-up-info2 p{
+            color: gray;
+        }
+        .sign-up-btn2{
+            text-align: center;
+            margin-top: 20px;
+            background-color: green;
+            border-radius: 5px;
+        }
+        .sign-up-btn2 button{
+            width: 100%;
+            border: 0;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgba(199, 199, 199, 0.678);
+        }
+        .sign-up-btn2 button a{
+            text-decoration: none;
+            font-size: 15px;
+            color: rgb(148, 148, 148);
+            
+        }
+        .sign-up-btn2 i{
+            color: rgba(10, 121, 0, 0.719);
+            padding: 12px;
+            font-size: 15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Fredoka:wght@300..700&family=Geo:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lavishly+Yours&family=Markazi+Text:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="sign-up-container">
+        <div class="sign-up-contant">
+            <div class="sign-up-headding">
+                <h2>Sign Up</h2>
+            </div>
+            <div class="sign-up-input">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="sign-up-input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="sign-up-input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="sign-up-btn">
+                <button><a href="./index.html">Sign Up</a></button>
+            </div>
+            <div class="sign-up-info">
+                <p>Already Have An Account ? <a href="./Login.html">Log In</a> </p>
+            </div>
+            <div class="sign-up-info2">
+                <p>or</p>
+            </div>
+            <div class="sign-up-btn2">
+                <button><i class="fa-brands fa-google"></i><a href="https://mail.google.com/mail/u/0/#inbox">Sign Up With Google</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
